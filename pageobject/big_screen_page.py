@@ -2,14 +2,11 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-10 10:35:56
-LastEditTime: 2022-02-28 13:18:28
+LastEditTime: 2022-03-02 09:40:58
 '''
 import time
 from selenium.webdriver.common.by import By
-# import sys
-# sys.path.append('D:\\liuwen10\\Desktop\\publicdemo\\base')
 from base.base_page import BasePage
-# sys.path.append('D:\\liuwen10\\Desktop\\publicdemo\\pageobject')
 from pageobject.login_page import LoginPage
 
 class BigScreenPage(BasePage):
