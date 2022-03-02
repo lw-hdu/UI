@@ -1,0 +1,101 @@
+{
+  "uid" : "de783f5da1775efd",
+  "name" : "test_bigscreen",
+  "fullName" : "testcase.test_big_screen.TestBigScreen#test_bigscreen",
+  "historyId" : "b7d7286eafff78af6d6b1534878e4cf6",
+  "time" : {
+    "start" : 1646097165672,
+    "stop" : 1646097176503,
+    "duration" : 10831
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestBigScreen",
+    "time" : {
+      "start" : 1646097160311,
+      "stop" : 1646097165671,
+      "duration" : 5360
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1b48a9603ea3bf81",
+      "name" : "log",
+      "source" : "1b48a9603ea3bf81.txt",
+      "type" : "text/plain",
+      "size" : 7917
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestBigScreen::0",
+    "time" : {
+      "start" : 1646097176504,
+      "stop" : 1646097180793,
+      "duration" : 4289
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_big_screen"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBigScreen"
+  }, {
+    "name" : "host",
+    "value" : "XA342458"
+  }, {
+    "name" : "thread",
+    "value" : "18840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_big_screen"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "de783f5da1775efd.json",
+  "parameterValues" : [ ]
+}

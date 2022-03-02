@@ -1,0 +1,113 @@
+{
+  "uid" : "f52dfc964c2b1d71",
+  "name" : "test_login[1-admin-admin123]",
+  "fullName" : "testcase.test_login.TestLogin#test_login",
+  "historyId" : "f3dad26bb7d4d15e33ef5a16cd39d4c7",
+  "time" : {
+    "start" : 1646097186141,
+    "stop" : 1646097191456,
+    "duration" : 5315
+  },
+  "description" : " 登录 ",
+  "descriptionHtml" : "<p>登录</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin",
+    "time" : {
+      "start" : 1646097180796,
+      "stop" : 1646097186140,
+      "duration" : 5344
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : " 登录 ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "751f23a78fd66c3c",
+      "name" : "log",
+      "source" : "751f23a78fd66c3c.txt",
+      "type" : "text/plain",
+      "size" : 5276
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1646097196172,
+      "stop" : 1646097200431,
+      "duration" : 4259
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "XA342458"
+  }, {
+    "name" : "thread",
+    "value" : "18840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "1"
+  }, {
+    "name" : "password",
+    "value" : "'admin123'"
+  }, {
+    "name" : "username",
+    "value" : "'admin'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f52dfc964c2b1d71.json",
+  "parameterValues" : [ "1", "'admin123'", "'admin'" ]
+}

@@ -1,0 +1,73 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "XA342458",
+    "children" : [ {
+      "name" : "18840-MainThread",
+      "children" : [ {
+        "name" : "test_login[1-admin-admin123]",
+        "uid" : "f52dfc964c2b1d71",
+        "parentUid" : "44005c23571f3f51bb7ca2de73215c34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646097186141,
+          "stop" : 1646097191456,
+          "duration" : 5315
+        },
+        "flaky" : false,
+        "parameters" : [ "1", "'admin123'", "'admin'" ]
+      }, {
+        "name" : "test_login[2-admin-admin]",
+        "uid" : "691879b7ee84a8b5",
+        "parentUid" : "44005c23571f3f51bb7ca2de73215c34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646097191460,
+          "stop" : 1646097193823,
+          "duration" : 2363
+        },
+        "flaky" : false,
+        "parameters" : [ "2", "'admin'", "'admin'" ]
+      }, {
+        "name" : "test_bigscreen",
+        "uid" : "de783f5da1775efd",
+        "parentUid" : "44005c23571f3f51bb7ca2de73215c34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646097165672,
+          "stop" : 1646097176503,
+          "duration" : 10831
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_login[3-admin123-admin123]",
+        "uid" : "16887dbe623fec4a",
+        "parentUid" : "44005c23571f3f51bb7ca2de73215c34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646097193827,
+          "stop" : 1646097196170,
+          "duration" : 2343
+        },
+        "flaky" : false,
+        "parameters" : [ "3", "'admin123'", "'admin123'" ]
+      }, {
+        "name" : "test_select_power",
+        "uid" : "1f4237f676ef5a6e",
+        "parentUid" : "44005c23571f3f51bb7ca2de73215c34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646097205787,
+          "stop" : 1646097223623,
+          "duration" : 17836
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "44005c23571f3f51bb7ca2de73215c34"
+    } ],
+    "uid" : "b5e5b6ef3b2734664bd21635ea8e8a75"
+  } ]
+}

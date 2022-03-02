@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 01 09:13:06 CST 2022","Tue Mar 01 09:13:11 CST 2022","5315","testcase","test_login","TestLogin","","","test_login[1-admin-admin123]"," 登录 "
+"passed","Tue Mar 01 09:13:11 CST 2022","Tue Mar 01 09:13:13 CST 2022","2363","testcase","test_login","TestLogin","","","test_login[2-admin-admin]"," 登录 "
+"passed","Tue Mar 01 09:12:45 CST 2022","Tue Mar 01 09:12:56 CST 2022","10831","testcase","test_big_screen","TestBigScreen","","","test_bigscreen",""
+"passed","Tue Mar 01 09:13:13 CST 2022","Tue Mar 01 09:13:16 CST 2022","2343","testcase","test_login","TestLogin","","","test_login[3-admin123-admin123]"," 登录 "
+"passed","Tue Mar 01 09:13:25 CST 2022","Tue Mar 01 09:13:43 CST 2022","17836","testcase","test_power_manage","TestPowerManage","","","test_select_power",""
