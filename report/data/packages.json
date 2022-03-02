@@ -7,13 +7,13 @@
       "name" : "test_big_screen",
       "children" : [ {
         "name" : "test_bigscreen",
-        "uid" : "9d966b950da14473",
+        "uid" : "2ced6156fe0db4b2",
         "parentUid" : "f3ab15fc7d5626589b2aa8221c8e1992",
         "status" : "passed",
         "time" : {
-          "start" : 1646183644817,
-          "stop" : 1646183655668,
-          "duration" : 10851
+          "start" : 1646185337429,
+          "stop" : 1646185348612,
+          "duration" : 11183
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -23,37 +23,37 @@
       "name" : "test_login",
       "children" : [ {
         "name" : "test_login[1-admin-admin123]",
-        "uid" : "7e93592e939fd068",
+        "uid" : "14d9bd0787141bed",
         "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
         "status" : "passed",
         "time" : {
-          "start" : 1646183665321,
-          "stop" : 1646183670407,
-          "duration" : 5086
+          "start" : 1646185358145,
+          "stop" : 1646185363232,
+          "duration" : 5087
         },
         "flaky" : false,
         "parameters" : [ "1", "'admin123'", "'admin'" ]
       }, {
         "name" : "test_login[2-admin-admin]",
-        "uid" : "592d4faf143396d8",
+        "uid" : "5d49ff33e5ab8d1d",
         "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
         "status" : "passed",
         "time" : {
-          "start" : 1646183670411,
-          "stop" : 1646183672755,
-          "duration" : 2344
+          "start" : 1646185363236,
+          "stop" : 1646185365566,
+          "duration" : 2330
         },
         "flaky" : false,
         "parameters" : [ "2", "'admin'", "'admin'" ]
       }, {
         "name" : "test_login[3-admin123-admin123]",
-        "uid" : "e660d8990ae7d832",
+        "uid" : "ed22e108db582e75",
         "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
         "status" : "passed",
         "time" : {
-          "start" : 1646183672759,
-          "stop" : 1646183675071,
-          "duration" : 2312
+          "start" : 1646185365570,
+          "stop" : 1646185367913,
+          "duration" : 2343
         },
         "flaky" : false,
         "parameters" : [ "3", "'admin123'", "'admin123'" ]
@@ -63,13 +63,13 @@
       "name" : "test_power_manage",
       "children" : [ {
         "name" : "test_select_power",
-        "uid" : "c764a07ffcec8317",
+        "uid" : "ec11b2854f18ae00",
         "parentUid" : "0b7c7fc3e2f722c38864db69a930e4a2",
         "status" : "passed",
         "time" : {
-          "start" : 1646183684638,
-          "stop" : 1646183702338,
-          "duration" : 17700
+          "start" : 1646185377477,
+          "stop" : 1646185395198,
+          "duration" : 17721
         },
         "flaky" : false,
         "parameters" : [ ]
