@@ -1,0 +1,101 @@
+{
+  "uid" : "d853238c9b563ae7",
+  "name" : "test_select_power",
+  "fullName" : "testcase.test_power_manage.TestPowerManage#test_select_power",
+  "historyId" : "30ad14f159b930e5f41b01dc32971c1f",
+  "time" : {
+    "start" : 1646276656205,
+    "stop" : 1646276676417,
+    "duration" : 20212
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestPowerManage",
+    "time" : {
+      "start" : 1646276650845,
+      "stop" : 1646276656205,
+      "duration" : 5360
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3836b531ea129eb9",
+      "name" : "log",
+      "source" : "3836b531ea129eb9.txt",
+      "type" : "text/plain",
+      "size" : 14568
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestPowerManage::0",
+    "time" : {
+      "start" : 1646276676418,
+      "stop" : 1646276680607,
+      "duration" : 4189
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_power_manage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPowerManage"
+  }, {
+    "name" : "host",
+    "value" : "XA342458"
+  }, {
+    "name" : "thread",
+    "value" : "2376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_power_manage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d853238c9b563ae7.json",
+  "parameterValues" : [ ]
+}
