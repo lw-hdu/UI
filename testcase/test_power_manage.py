@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2022-03-03 09:34:17
+LastEditTime: 2022-03-03 10:05:15
 '''
 # -*- coding:utf-8 -*-
 
@@ -23,6 +23,6 @@ class TestPowerManage(BaseUtil):
         lp = LoginPage(self.driver)
         lp.login()
         time.sleep(3)
-
+        #电站查询页面操作
         pm = PowerManagePage(self.driver)
         pm.select_power()

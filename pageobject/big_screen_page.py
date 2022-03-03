@@ -2,12 +2,11 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-10 10:35:56
-LastEditTime: 2022-03-03 09:37:42
+LastEditTime: 2022-03-03 10:05:28
 '''
 import time
 from selenium.webdriver.common.by import By
 from base.base_page import BasePage
-from pageobject.login_page import LoginPage
 
 class BigScreenPage(BasePage):
 
@@ -18,4 +17,3 @@ class BigScreenPage(BasePage):
         #进入大屏
         self.click(BigScreenPage.page_screen_loc)
         time.sleep(2)
-

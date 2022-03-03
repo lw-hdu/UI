@@ -2,14 +2,13 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2022-03-03 09:42:27
+LastEditTime: 2022-03-03 10:05:16
 '''
 # -*- coding:utf-8 -*-
 
 import time
 from selenium.webdriver.common.by import By
 from base.base_page import BasePage
-from pageobject.login_page import LoginPage
 
 class PowerManagePage(BasePage):
 
