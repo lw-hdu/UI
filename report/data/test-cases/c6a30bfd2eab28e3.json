@@ -1,0 +1,101 @@
+{
+  "uid" : "c6a30bfd2eab28e3",
+  "name" : "test_bigscreen",
+  "fullName" : "testcase.test_big_screen.TestBigScreen#test_bigscreen",
+  "historyId" : "b7d7286eafff78af6d6b1534878e4cf6",
+  "time" : {
+    "start" : 1646271662275,
+    "stop" : 1646271670348,
+    "duration" : 8073
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestBigScreen",
+    "time" : {
+      "start" : 1646271656906,
+      "stop" : 1646271662274,
+      "duration" : 5368
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "51abd12584977d15",
+      "name" : "log",
+      "source" : "51abd12584977d15.txt",
+      "type" : "text/plain",
+      "size" : 7932
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestBigScreen::0",
+    "time" : {
+      "start" : 1646271670349,
+      "stop" : 1646271674605,
+      "duration" : 4256
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_big_screen"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestBigScreen"
+  }, {
+    "name" : "host",
+    "value" : "XA342458"
+  }, {
+    "name" : "thread",
+    "value" : "14632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_big_screen"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6a30bfd2eab28e3.json",
+  "parameterValues" : [ ]
+}

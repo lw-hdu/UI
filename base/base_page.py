@@ -2,11 +2,12 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:32
-LastEditTime: 2022-03-01 10:24:04
+LastEditTime: 2022-03-02 15:41:34
 '''
 # -*- coding:utf-8 -*-
 
 
+from time import sleep
 from selenium.webdriver.support.select import Select
 
 class BasePage:
@@ -16,6 +17,10 @@ class BasePage:
         self.url = 'http://10.0.10.131/'
         self.driver.get(self.url)
         self.driver.maximize_window()
+        
+    #打开指定的url
+    def open_url(self,url):
+        self.driver.get(url)
 
     #定位元素的关键字
     def locator_element(self,loc):
@@ -28,6 +33,9 @@ class BasePage:
     #单击的关键字
     def click(self,loc):
         self.locator_element(loc).click()
+
+    def wait(self,time):
+        sleep(time)
 
     #进入框架的关键字
     def goto_frame(self,frame_name):
