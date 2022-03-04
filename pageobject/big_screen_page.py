@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-10 10:35:56
-LastEditTime: 2022-03-03 11:03:19
+LastEditTime: 2022-03-03 17:03:58
 '''
 import time
 from selenium.webdriver.common.by import By
@@ -20,5 +20,5 @@ class BigScreenPage(BasePage):
 
         #进入大屏
         self.click(self.page_screen_loc)
-        self.log.info(f'定位的元素为{self.page_screen_loc}')
+        self.log.info(f'大屏定位的元素为{self.page_screen_loc}')
         time.sleep(2)

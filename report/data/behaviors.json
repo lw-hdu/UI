@@ -2,64 +2,40 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test_bigscreen",
-    "uid" : "dce5ef1dadb6e4da",
+    "name" : "test_login[1-tt-1qaz!QAZ]",
+    "uid" : "25a39c4e13d916bf",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646276619152,
-      "stop" : 1646276627159,
-      "duration" : 8007
+      "start" : 1646373972058,
+      "stop" : 1646373977231,
+      "duration" : 5173
     },
     "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_login[1-admin-admin123]",
-    "uid" : "4bf717c288fb9ae4",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1646276636725,
-      "stop" : 1646276641891,
-      "duration" : 5166
-    },
-    "flaky" : false,
-    "parameters" : [ "1", "'admin123'", "'admin'" ]
+    "parameters" : [ "1", "'1qaz!QAZ'", "'tt'" ]
   }, {
     "name" : "test_login[2-admin-admin]",
-    "uid" : "4890643248d80f3e",
+    "uid" : "eadb6c8e71bf141f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646276641895,
-      "stop" : 1646276644270,
-      "duration" : 2375
+      "start" : 1646373977235,
+      "stop" : 1646373979593,
+      "duration" : 2358
     },
     "flaky" : false,
     "parameters" : [ "2", "'admin'", "'admin'" ]
   }, {
-    "name" : "test_login[3-admin123-admin123]",
-    "uid" : "3469e4e97693d0b",
+    "name" : "test_login[3-admin-1qaz!QAZ]",
+    "uid" : "f9389b03325997eb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1646276644274,
-      "stop" : 1646276646619,
-      "duration" : 2345
+      "start" : 1646373979597,
+      "stop" : 1646373983977,
+      "duration" : 4380
     },
     "flaky" : false,
-    "parameters" : [ "3", "'admin123'", "'admin123'" ]
-  }, {
-    "name" : "test_select_power",
-    "uid" : "d853238c9b563ae7",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1646276656205,
-      "stop" : 1646276676417,
-      "duration" : 20212
-    },
-    "flaky" : false,
-    "parameters" : [ ]
+    "parameters" : [ "3", "'1qaz!QAZ'", "'admin'" ]
   } ]
 }

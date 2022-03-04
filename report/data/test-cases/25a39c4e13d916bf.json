@@ -1,12 +1,12 @@
 {
-  "uid" : "4bf717c288fb9ae4",
-  "name" : "test_login[1-admin-admin123]",
+  "uid" : "25a39c4e13d916bf",
+  "name" : "test_login[1-tt-1qaz!QAZ]",
   "fullName" : "testcase.test_login.TestLogin#test_login",
-  "historyId" : "f3dad26bb7d4d15e33ef5a16cd39d4c7",
+  "historyId" : "3dd29a8960932742eebdae5df0375cf4",
   "time" : {
-    "start" : 1646276636725,
-    "stop" : 1646276641891,
-    "duration" : 5166
+    "start" : 1646373972058,
+    "stop" : 1646373977231,
+    "duration" : 5173
   },
   "description" : " 登录 ",
   "descriptionHtml" : "<p>登录</p>\n",
@@ -15,16 +15,16 @@
   "beforeStages" : [ {
     "name" : "xunit_setup_class_fixture_TestLogin",
     "time" : {
-      "start" : 1646276631356,
-      "stop" : 1646276636725,
-      "duration" : 5369
+      "start" : 1646373966646,
+      "stop" : 1646373972058,
+      "duration" : 5412
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
     "stepsCount" : 0,
     "hasContent" : false
   } ],
@@ -33,31 +33,31 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "df3f06c911c46a1d",
+      "uid" : "422c18a16dd1dfeb",
       "name" : "log",
-      "source" : "df3f06c911c46a1d.txt",
+      "source" : "422c18a16dd1dfeb.txt",
       "type" : "text/plain",
-      "size" : 5276
+      "size" : 5362
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
     "stepsCount" : 0,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "xunit_setup_class_fixture_TestLogin::0",
     "time" : {
-      "start" : 1646276646621,
-      "stop" : 1646276650842,
-      "duration" : 4221
+      "start" : 1646373983979,
+      "stop" : 1646373988256,
+      "duration" : 4277
     },
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
     "stepsCount" : 0,
     "hasContent" : false
   } ],
@@ -75,7 +75,7 @@
     "value" : "XA342458"
   }, {
     "name" : "thread",
-    "value" : "2376-MainThread"
+    "value" : "18272-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -94,10 +94,10 @@
     "value" : "1"
   }, {
     "name" : "password",
-    "value" : "'admin123'"
+    "value" : "'1qaz!QAZ'"
   }, {
     "name" : "username",
-    "value" : "'admin'"
+    "value" : "'tt'"
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -108,6 +108,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4bf717c288fb9ae4.json",
-  "parameterValues" : [ "1", "'admin123'", "'admin'" ]
+  "source" : "25a39c4e13d916bf.json",
+  "parameterValues" : [ "1", "'1qaz!QAZ'", "'tt'" ]
 }

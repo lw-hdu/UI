@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2022-02-28 14:23:50
-LastEditTime: 2022-03-01 10:49:24
+LastEditTime: 2022-03-03 15:52:57
 '''
 import os
 import openpyxl
@@ -22,7 +22,7 @@ class ReadExcel:
                 temp_list.append(sheet.cell(row,colum).value)
             all_list.append(temp_list)
         return all_list
-        # print(all_list)
+        #print(all_list)
             
 # if __name__ == '__main__':
 #     ReadExcel().get_xls()
