@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-07 17:14:57
-LastEditTime: 2022-03-04 10:24:30
+LastEditTime: 2022-03-04 16:15:56
 '''
 
 from selenium import webdriver
@@ -40,6 +40,12 @@ class TestUI(unittest.TestCase):
         ActionChains(driver).move_to_element(mouse).perform()
         sleep(2)
         driver.find_element(By.XPATH,'//li[text()=" 退出登录 "]').click()
+        sleep(3)
+        #针对弹出框，点击 确定 按钮
+        driver.find_element(By.XPATH,'//button[@class="el-button el-button--default el-button--small el-button--primary "]').click()
+        sleep(2)
+
+        
 
         ##进入电站管理,根据电站名称查询电站
         # driver.find_element(By.XPATH,'//span[text()="电站管理"]').click()
@@ -97,6 +103,6 @@ class TestUI(unittest.TestCase):
 
 
 
-        # driver.close()
+        driver.close()
 if __name__ == '__main__':
     unittest.main()
