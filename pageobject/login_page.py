@@ -3,7 +3,7 @@ Descripttion: 用于实现登录页面对象的文件
               包含核心元素定位、核心业务流程
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2022-03-04 13:47:29
+LastEditTime: 2022-03-09 14:03:35
 '''
 # -*- coding:utf-8 -*-
 
@@ -11,9 +11,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from base.base_page import BasePage
 import time
+import logging
 
 
 class LoginPage(BasePage):   
+
+    logging.basicConfig(level=logging.INFO)
+    log = logging.getLogger()
     #页面的元素（用元祖管理元素）
     #输入用户名
     username_loc = (By.XPATH,'//input[@placeholder="请输入用户名"]')
@@ -30,6 +34,7 @@ class LoginPage(BasePage):
         self.send_keys(self.username_loc,username)
         self.send_keys(self.password_loc,password)
         self.click(self.submit_loc)
+        self.log.info('---登录成功---')
         time.sleep(2)
 
     #断言

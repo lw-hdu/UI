@@ -1,0 +1,71 @@
+{
+  "uid" : "9d980bdcd8040499",
+  "name" : "电站查询测试",
+  "fullName" : "testcase.test_power_manage.TestPowerManage#test_select_power",
+  "historyId" : "30ad14f159b930e5f41b01dc32971c1f",
+  "time" : {
+    "start" : 1646812072511,
+    "stop" : 1646812086052,
+    "duration" : 13541
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4736a8025f7ac4e4",
+      "name" : "log",
+      "source" : "4736a8025f7ac4e4.txt",
+      "type" : "text/plain",
+      "size" : 15960
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_power_manage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPowerManage"
+  }, {
+    "name" : "host",
+    "value" : "XA342458"
+  }, {
+    "name" : "thread",
+    "value" : "19096-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_power_manage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9d980bdcd8040499.json",
+  "parameterValues" : [ ]
+}

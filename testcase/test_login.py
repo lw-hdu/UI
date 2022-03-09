@@ -2,18 +2,21 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2022-03-04 14:06:00
+LastEditTime: 2022-03-09 15:46:29
 '''
 import pytest
 from pageobject.login_page import LoginPage
 from common.read_excel import ReadExcel
 from base.base_util import BaseUtil
 import logging
+import allure
 
 class TestLogin(BaseUtil):
     logging.basicConfig(level=logging.INFO)
     log = logging.getLogger()
     
+    @allure.title('登录测试')
+    #@pytest.mark.skip()
     @pytest.mark.parametrize("id,username,password",ReadExcel().get_xls())
     def test_login(self,id,username,password):
         """ 登录 """

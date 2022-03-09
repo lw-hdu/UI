@@ -1,66 +1,36 @@
 {
-  "uid" : "eadb6c8e71bf141f",
-  "name" : "test_login[2-admin-admin]",
+  "uid" : "b55bcbacd2c425d4",
+  "name" : "登录测试",
   "fullName" : "testcase.test_login.TestLogin#test_login",
   "historyId" : "58cb29d2fb7466ac96094e4719b86217",
   "time" : {
-    "start" : 1646373977235,
-    "stop" : 1646373979593,
-    "duration" : 2358
+    "start" : 1646812040319,
+    "stop" : 1646812042440,
+    "duration" : 2121
   },
   "description" : " 登录 ",
   "descriptionHtml" : "<p>登录</p>\n",
   "status" : "passed",
   "flaky" : false,
-  "beforeStages" : [ {
-    "name" : "xunit_setup_class_fixture_TestLogin",
-    "time" : {
-      "start" : 1646373966646,
-      "stop" : 1646373972058,
-      "duration" : 5412
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "hasContent" : false
-  } ],
+  "beforeStages" : [ ],
   "testStage" : {
     "description" : " 登录 ",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "bb9ff08eb25754d3",
+      "uid" : "ecb27358fbc740f6",
       "name" : "log",
-      "source" : "bb9ff08eb25754d3.txt",
+      "source" : "ecb27358fbc740f6.txt",
       "type" : "text/plain",
-      "size" : 4607
+      "size" : 6015
     } ],
     "parameters" : [ ],
-    "shouldDisplayMessage" : false,
     "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
     "hasContent" : true
   },
-  "afterStages" : [ {
-    "name" : "xunit_setup_class_fixture_TestLogin::0",
-    "time" : {
-      "start" : 1646373983979,
-      "stop" : 1646373988256,
-      "duration" : 4277
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0,
-    "stepsCount" : 0,
-    "hasContent" : false
-  } ],
+  "afterStages" : [ ],
   "labels" : [ {
     "name" : "parentSuite",
     "value" : "testcase"
@@ -75,7 +45,7 @@
     "value" : "XA342458"
   }, {
     "name" : "thread",
-    "value" : "18272-MainThread"
+    "value" : "19096-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -108,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "eadb6c8e71bf141f.json",
+  "source" : "b55bcbacd2c425d4.json",
   "parameterValues" : [ "2", "'admin'", "'admin'" ]
 }

@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:32
-LastEditTime: 2022-03-04 13:31:13
+LastEditTime: 2022-03-09 14:08:25
 '''
 # -*- coding:utf-8 -*-
 
@@ -17,9 +17,7 @@ class BasePage:
 
     def __init__(self,driver):
         self.driver = driver
-        self.url = 'http://10.0.10.131/'
-        self.driver.get(self.url)
-        self.driver.maximize_window()
+        # self.driver.implicitly_wait(30)
         
     #打开指定的url
     def open_url(self,url):

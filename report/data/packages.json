@@ -2,44 +2,80 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "testcase.test_login",
+    "name" : "testcase",
     "children" : [ {
-      "name" : "test_login[1-tt-1qaz!QAZ]",
-      "uid" : "25a39c4e13d916bf",
-      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646373972058,
-        "stop" : 1646373977231,
-        "duration" : 5173
-      },
-      "flaky" : false,
-      "parameters" : [ "1", "'1qaz!QAZ'", "'tt'" ]
+      "name" : "test_big_screen",
+      "children" : [ {
+        "name" : "大屏测试",
+        "uid" : "55e0dba0bb471726",
+        "parentUid" : "f3ab15fc7d5626589b2aa8221c8e1992",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812008376,
+          "stop" : 1646812012559,
+          "duration" : 4183
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f3ab15fc7d5626589b2aa8221c8e1992"
     }, {
-      "name" : "test_login[2-admin-admin]",
-      "uid" : "eadb6c8e71bf141f",
-      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646373977235,
-        "stop" : 1646373979593,
-        "duration" : 2358
-      },
-      "flaky" : false,
-      "parameters" : [ "2", "'admin'", "'admin'" ]
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "登录测试",
+        "uid" : "9203c2bfe9100aeb",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812025392,
+          "stop" : 1646812027520,
+          "duration" : 2128
+        },
+        "flaky" : false,
+        "parameters" : [ "1", "'1qaz!QAZ'", "'tt'" ]
+      }, {
+        "name" : "登录测试",
+        "uid" : "b55bcbacd2c425d4",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812040319,
+          "stop" : 1646812042440,
+          "duration" : 2121
+        },
+        "flaky" : false,
+        "parameters" : [ "2", "'admin'", "'admin'" ]
+      }, {
+        "name" : "登录测试",
+        "uid" : "d1ecb5c95cd83c34",
+        "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812054942,
+          "stop" : 1646812059141,
+          "duration" : 4199
+        },
+        "flaky" : false,
+        "parameters" : [ "3", "'1qaz!QAZ'", "'admin'" ]
+      } ],
+      "uid" : "cc0ea573530a3fefba2a1fc590840070"
     }, {
-      "name" : "test_login[3-admin-1qaz!QAZ]",
-      "uid" : "f9389b03325997eb",
-      "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
-      "status" : "passed",
-      "time" : {
-        "start" : 1646373979597,
-        "stop" : 1646373983977,
-        "duration" : 4380
-      },
-      "flaky" : false,
-      "parameters" : [ "3", "'1qaz!QAZ'", "'admin'" ]
+      "name" : "test_power_manage",
+      "children" : [ {
+        "name" : "电站查询测试",
+        "uid" : "9d980bdcd8040499",
+        "parentUid" : "0b7c7fc3e2f722c38864db69a930e4a2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646812072511,
+          "stop" : 1646812086052,
+          "duration" : 13541
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0b7c7fc3e2f722c38864db69a930e4a2"
     } ],
-    "uid" : "testcase.test_login"
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
   } ]
 }
