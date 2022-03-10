@@ -1,25 +1,28 @@
 {
-  "uid" : "9d980bdcd8040499",
-  "name" : "电站查询测试",
-  "fullName" : "testcase.test_power_manage.TestPowerManage#test_select_power",
-  "historyId" : "30ad14f159b930e5f41b01dc32971c1f",
+  "uid" : "4c2d1ea85479b955",
+  "name" : "登录测试",
+  "fullName" : "testcase.test_login.TestLogin#test_login",
+  "historyId" : "a1ac8cd2b200647ccde3b51ee01561c5",
   "time" : {
-    "start" : 1646812072511,
-    "stop" : 1646812086052,
-    "duration" : 13541
+    "start" : 1646894338653,
+    "stop" : 1646894342922,
+    "duration" : 4269
   },
+  "description" : " 登录 ",
+  "descriptionHtml" : "<p>登录</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
   "testStage" : {
+    "description" : " 登录 ",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4736a8025f7ac4e4",
+      "uid" : "97026fac6abfbf93",
       "name" : "log",
-      "source" : "4736a8025f7ac4e4.txt",
+      "source" : "97026fac6abfbf93.txt",
       "type" : "text/plain",
-      "size" : 15960
+      "size" : 8182
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -33,16 +36,16 @@
     "value" : "testcase"
   }, {
     "name" : "suite",
-    "value" : "test_power_manage"
+    "value" : "test_login"
   }, {
     "name" : "subSuite",
-    "value" : "TestPowerManage"
+    "value" : "TestLogin"
   }, {
     "name" : "host",
     "value" : "XA342458"
   }, {
     "name" : "thread",
-    "value" : "19096-MainThread"
+    "value" : "5468-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -51,12 +54,21 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "testcase.test_power_manage"
+    "value" : "testcase.test_login"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "id",
+    "value" : "3"
+  }, {
+    "name" : "password",
+    "value" : "'1qaz!QAZ'"
+  }, {
+    "name" : "username",
+    "value" : "'admin'"
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -66,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9d980bdcd8040499.json",
-  "parameterValues" : [ ]
+  "source" : "4c2d1ea85479b955.json",
+  "parameterValues" : [ "3", "'1qaz!QAZ'", "'admin'" ]
 }

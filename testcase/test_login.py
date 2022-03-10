@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2022-03-09 15:46:29
+LastEditTime: 2022-03-10 14:37:55
 '''
 import pytest
 from pageobject.login_page import LoginPage
@@ -27,5 +27,6 @@ class TestLogin(BaseUtil):
         # 断言
         if id == 3:
             assert loginpage.get_expect_result() == '退出登录'
+            self.log.info('--登陆成功--')
         else:
             pass

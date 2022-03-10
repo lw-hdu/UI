@@ -3,7 +3,7 @@ Descripttion: 用于实现登录页面对象的文件
               包含核心元素定位、核心业务流程
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2022-03-09 14:03:35
+LastEditTime: 2022-03-09 16:53:35
 '''
 # -*- coding:utf-8 -*-
 
@@ -34,7 +34,6 @@ class LoginPage(BasePage):
         self.send_keys(self.username_loc,username)
         self.send_keys(self.password_loc,password)
         self.click(self.submit_loc)
-        self.log.info('---登录成功---')
         time.sleep(2)
 
     #断言

@@ -1,12 +1,12 @@
 {
-  "uid" : "55e0dba0bb471726",
+  "uid" : "fd231e527546279b",
   "name" : "大屏测试",
   "fullName" : "testcase.test_big_screen.TestBigScreen#test_bigscreen",
   "historyId" : "b7d7286eafff78af6d6b1534878e4cf6",
   "time" : {
-    "start" : 1646812008376,
-    "stop" : 1646812012559,
-    "duration" : 4183
+    "start" : 1646894291534,
+    "stop" : 1646894295721,
+    "duration" : 4187
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,11 +15,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7eacc6e76a86a408",
+      "uid" : "5fcdfd26473545d8",
       "name" : "log",
-      "source" : "7eacc6e76a86a408.txt",
+      "source" : "5fcdfd26473545d8.txt",
       "type" : "text/plain",
-      "size" : 7199
+      "size" : 7152
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
@@ -42,7 +42,7 @@
     "value" : "XA342458"
   }, {
     "name" : "thread",
-    "value" : "19096-MainThread"
+    "value" : "5468-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -66,6 +66,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "55e0dba0bb471726.json",
+  "source" : "fd231e527546279b.json",
   "parameterValues" : [ ]
 }
