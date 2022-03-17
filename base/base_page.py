@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:32
-LastEditTime: 2022-03-09 16:52:05
+LastEditTime: 2022-03-17 15:50:57
 '''
 # -*- coding:utf-8 -*-
 
@@ -17,7 +17,6 @@ class BasePage:
 
     def __init__(self,driver):
         self.driver = driver
-        # self.driver.implicitly_wait(30)
         
     #打开指定的url
     def open_url(self,url):
@@ -33,6 +32,7 @@ class BasePage:
 
     #单击的关键字
     def click(self,loc):
+        #self.driver.execute_script("arguments[0].click();",self.locator_element(loc))
         self.locator_element(loc).click()
 
     def wait(self,time):

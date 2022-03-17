@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2022-03-10 14:37:55
+LastEditTime: 2022-03-17 15:51:43
 '''
 import pytest
 from pageobject.login_page import LoginPage

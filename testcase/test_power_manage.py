@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2022-03-09 15:44:10
+LastEditTime: 2022-03-17 15:51:07
 '''
 # -*- coding:utf-8 -*-
 
@@ -13,7 +13,6 @@ LastEditTime: 2022-03-09 15:44:10
 import time
 from pageobject.login_page import LoginPage
 from pageobject.power_manage_page import PowerManagePage
-from selenium import webdriver
 from base.base_util import BaseUtil
 import allure
 import pytest
@@ -26,7 +25,7 @@ class TestPowerManage(BaseUtil):
         #登录
         lp = LoginPage(self.driver)
         lp.login()
-        # time.sleep(3)
+        time.sleep(3)
         
         pm = PowerManagePage(self.driver)
         #根据电站名称查询

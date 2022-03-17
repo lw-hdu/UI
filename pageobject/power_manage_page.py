@@ -2,9 +2,10 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-09 14:42:33
-LastEditTime: 2022-03-09 16:51:56
+LastEditTime: 2022-03-17 15:50:48
 '''
 # -*- coding:utf-8 -*-
+
 
 import time
 from selenium.webdriver.common.by import By
@@ -14,6 +15,7 @@ from base_page import BasePage
 from selenium import webdriver
 
 class PowerManagePage(BasePage):
+    
 
     #页面元素
     power_manager_loc = (By.XPATH,'//li[@class="el-menu-item"]')
@@ -32,6 +34,7 @@ class PowerManagePage(BasePage):
     
     #页面动作
     def input_power(self):
+        self.driver.implicitly_wait(10)
         #根据输入的电站名称查询
         self.click(self.power_manager_loc)
         time.sleep(1)

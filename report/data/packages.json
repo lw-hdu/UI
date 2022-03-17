@@ -7,13 +7,13 @@
       "name" : "test_big_screen",
       "children" : [ {
         "name" : "大屏测试",
-        "uid" : "fd231e527546279b",
+        "uid" : "8bab352bb07f04f6",
         "parentUid" : "f3ab15fc7d5626589b2aa8221c8e1992",
         "status" : "passed",
         "time" : {
-          "start" : 1646894291534,
-          "stop" : 1646894295721,
-          "duration" : 4187
+          "start" : 1647503522945,
+          "stop" : 1647503527153,
+          "duration" : 4208
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -23,37 +23,37 @@
       "name" : "test_login",
       "children" : [ {
         "name" : "登录测试",
-        "uid" : "abf3c4575811cd3c",
+        "uid" : "26c6a3e1779e52f0",
         "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
         "status" : "passed",
         "time" : {
-          "start" : 1646894308850,
-          "stop" : 1646894311013,
-          "duration" : 2163
+          "start" : 1647503539956,
+          "stop" : 1647503542087,
+          "duration" : 2131
         },
         "flaky" : false,
         "parameters" : [ "1", "'1qaz!QAZ'", "'tt'" ]
       }, {
         "name" : "登录测试",
-        "uid" : "6c1dc2ca3f4a81b1",
+        "uid" : "98819623aa3eb7b8",
         "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
         "status" : "passed",
         "time" : {
-          "start" : 1646894323877,
-          "stop" : 1646894326030,
-          "duration" : 2153
+          "start" : 1647503554806,
+          "stop" : 1647503556938,
+          "duration" : 2132
         },
         "flaky" : false,
         "parameters" : [ "2", "'admin'", "'admin'" ]
       }, {
         "name" : "登录测试",
-        "uid" : "4c2d1ea85479b955",
+        "uid" : "3f3613fccbcbb16c",
         "parentUid" : "cc0ea573530a3fefba2a1fc590840070",
         "status" : "passed",
         "time" : {
-          "start" : 1646894338653,
-          "stop" : 1646894342922,
-          "duration" : 4269
+          "start" : 1647503569516,
+          "stop" : 1647503573723,
+          "duration" : 4207
         },
         "flaky" : false,
         "parameters" : [ "3", "'1qaz!QAZ'", "'admin'" ]
@@ -63,13 +63,13 @@
       "name" : "test_power_manage",
       "children" : [ {
         "name" : "电站查询测试",
-        "uid" : "3b1f1ccb165bdd77",
+        "uid" : "1a3c7a0cd318b7ad",
         "parentUid" : "0b7c7fc3e2f722c38864db69a930e4a2",
         "status" : "passed",
         "time" : {
-          "start" : 1646894355839,
-          "stop" : 1646894369448,
-          "duration" : 13609
+          "start" : 1647503586369,
+          "stop" : 1647503602967,
+          "duration" : 16598
         },
         "flaky" : false,
         "parameters" : [ ]

@@ -1,50 +1,50 @@
 [ {
-  "uid" : "3b1f1ccb165bdd77",
+  "uid" : "98819623aa3eb7b8",
+  "name" : "登录测试",
+  "time" : {
+    "start" : 1647503554806,
+    "stop" : 1647503556938,
+    "duration" : 2132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a3c7a0cd318b7ad",
   "name" : "电站查询测试",
   "time" : {
-    "start" : 1646894355839,
-    "stop" : 1646894369448,
-    "duration" : 13609
+    "start" : 1647503586369,
+    "stop" : 1647503602967,
+    "duration" : 16598
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4c2d1ea85479b955",
+  "uid" : "26c6a3e1779e52f0",
   "name" : "登录测试",
   "time" : {
-    "start" : 1646894338653,
-    "stop" : 1646894342922,
-    "duration" : 4269
+    "start" : 1647503539956,
+    "stop" : 1647503542087,
+    "duration" : 2131
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "fd231e527546279b",
+  "uid" : "3f3613fccbcbb16c",
+  "name" : "登录测试",
+  "time" : {
+    "start" : 1647503569516,
+    "stop" : 1647503573723,
+    "duration" : 4207
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bab352bb07f04f6",
   "name" : "大屏测试",
   "time" : {
-    "start" : 1646894291534,
-    "stop" : 1646894295721,
-    "duration" : 4187
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "abf3c4575811cd3c",
-  "name" : "登录测试",
-  "time" : {
-    "start" : 1646894308850,
-    "stop" : 1646894311013,
-    "duration" : 2163
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6c1dc2ca3f4a81b1",
-  "name" : "登录测试",
-  "time" : {
-    "start" : 1646894323877,
-    "stop" : 1646894326030,
-    "duration" : 2153
+    "start" : 1647503522945,
+    "stop" : 1647503527153,
+    "duration" : 4208
   },
   "status" : "passed",
   "severity" : "normal"

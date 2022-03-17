@@ -1,12 +1,12 @@
 {
-  "uid" : "3b1f1ccb165bdd77",
+  "uid" : "1a3c7a0cd318b7ad",
   "name" : "电站查询测试",
   "fullName" : "testcase.test_power_manage.TestPowerManage#test_select_power",
   "historyId" : "30ad14f159b930e5f41b01dc32971c1f",
   "time" : {
-    "start" : 1646894355839,
-    "stop" : 1646894369448,
-    "duration" : 13609
+    "start" : 1647503586369,
+    "stop" : 1647503602967,
+    "duration" : 16598
   },
   "status" : "passed",
   "flaky" : false,
@@ -15,17 +15,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "58bcc7dd3dfb7f63",
+      "uid" : "d946b5573f7fd6fd",
       "name" : "log",
-      "source" : "58bcc7dd3dfb7f63.txt",
+      "source" : "d946b5573f7fd6fd.txt",
       "type" : "text/plain",
-      "size" : 15901
+      "size" : 16981
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "stepsCount" : 0,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -42,7 +42,7 @@
     "value" : "XA342458"
   }, {
     "name" : "thread",
-    "value" : "5468-MainThread"
+    "value" : "10420-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -66,6 +66,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3b1f1ccb165bdd77.json",
+  "source" : "1a3c7a0cd318b7ad.json",
   "parameterValues" : [ ]
 }

@@ -2,7 +2,7 @@
 Descripttion: 
 Author: Liuwen
 Date: 2021-12-07 17:14:57
-LastEditTime: 2022-03-04 16:15:56
+LastEditTime: 2022-03-17 13:18:53
 '''
 
 from selenium import webdriver
@@ -28,30 +28,34 @@ class TestUI(unittest.TestCase):
     def test_power(self):
         global driver
         driver = webdriver.Chrome()
-        driver.implicitly_wait(10)
+        driver.implicitly_wait(1)
         driver.get('http://10.0.10.131/')
         driver.maximize_window()
         driver.find_element(By.XPATH,'//input[@placeholder="请输入用户名"]').send_keys('admin')
         driver.find_element(By.XPATH,'//input[@placeholder="请输入密码"]').send_keys('1qaz!QAZ')
         driver.find_element(By.XPATH,'//span[text()=" 登  录 "]').click()
-        sleep(3)
+        #sleep(3)
         #定位鼠标悬停才显示的元素
-        mouse = driver.find_element(By.XPATH,'//img[@class="user-avatar"]')
-        ActionChains(driver).move_to_element(mouse).perform()
-        sleep(2)
-        driver.find_element(By.XPATH,'//li[text()=" 退出登录 "]').click()
-        sleep(3)
-        #针对弹出框，点击 确定 按钮
-        driver.find_element(By.XPATH,'//button[@class="el-button el-button--default el-button--small el-button--primary "]').click()
-        sleep(2)
+        # mouse = driver.find_element(By.XPATH,'//img[@class="user-avatar"]')
+        # ActionChains(driver).move_to_element(mouse).perform()
+        # #sleep(2)
+        # driver.find_element(By.XPATH,'//li[text()=" 退出登录 "]').click()
+        # #sleep(3)
+        # #针对弹出框，点击 确定 按钮
+        # driver.find_element(By.XPATH,'//button[@class="el-button el-button--default el-button--small el-button--primary "]').click()
+        # #sleep(2)
 
         
 
-        ##进入电站管理,根据电站名称查询电站
-        # driver.find_element(By.XPATH,'//span[text()="电站管理"]').click()
-        # driver.find_element(By.XPATH,'//input[@placeholder="请输入电站名称"]').send_keys('空港')
-        # driver.find_element(By.XPATH,'//span[text()=" 查询 "]').click()
-        # driver.find_element(By.XPATH,'//span[text()=" 重置 "]').click()
+        #进入电站管理,根据电站名称查询电站
+        driver.find_element(By.XPATH,'//span[text()="电站管理"]').click()
+        driver.find_element(By.XPATH,'//input[@placeholder="请输入电站名称"]').send_keys('空港')
+
+        search_bu = driver.find_element(By.XPATH,'//span[text()=" 查询 "]')
+        driver.execute_script("arguments[0].click();",search_bu)
+        
+        re = driver.find_element(By.XPATH,'//span[text()=" 重置 "]')
+        driver.execute_script("arguments[0].click();",re)
 
         # #进入电站列表页
         # driver.find_element(By.XPATH,'//button[@class="el-button el-button--mini"]').click()

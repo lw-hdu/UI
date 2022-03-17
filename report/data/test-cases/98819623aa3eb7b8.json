@@ -1,12 +1,12 @@
 {
-  "uid" : "4c2d1ea85479b955",
+  "uid" : "98819623aa3eb7b8",
   "name" : "登录测试",
   "fullName" : "testcase.test_login.TestLogin#test_login",
-  "historyId" : "a1ac8cd2b200647ccde3b51ee01561c5",
+  "historyId" : "58cb29d2fb7466ac96094e4719b86217",
   "time" : {
-    "start" : 1646894338653,
-    "stop" : 1646894342922,
-    "duration" : 4269
+    "start" : 1647503554806,
+    "stop" : 1647503556938,
+    "duration" : 2132
   },
   "description" : " 登录 ",
   "descriptionHtml" : "<p>登录</p>\n",
@@ -18,17 +18,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "97026fac6abfbf93",
+      "uid" : "cc12d99e2a635042",
       "name" : "log",
-      "source" : "97026fac6abfbf93.txt",
+      "source" : "cc12d99e2a635042.txt",
       "type" : "text/plain",
-      "size" : 8182
+      "size" : 6478
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "hasContent" : true,
     "stepsCount" : 0,
-    "hasContent" : true
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -45,7 +45,7 @@
     "value" : "XA342458"
   }, {
     "name" : "thread",
-    "value" : "5468-MainThread"
+    "value" : "10420-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -61,10 +61,10 @@
   } ],
   "parameters" : [ {
     "name" : "id",
-    "value" : "3"
+    "value" : "2"
   }, {
     "name" : "password",
-    "value" : "'1qaz!QAZ'"
+    "value" : "'admin'"
   }, {
     "name" : "username",
     "value" : "'admin'"
@@ -78,6 +78,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4c2d1ea85479b955.json",
-  "parameterValues" : [ "3", "'1qaz!QAZ'", "'admin'" ]
+  "source" : "98819623aa3eb7b8.json",
+  "parameterValues" : [ "2", "'admin'", "'admin'" ]
 }
